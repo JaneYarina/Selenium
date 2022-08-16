@@ -1,0 +1,52 @@
+recap
+1. locate the month
+2.get the text
+3.keep kliking on next till we will get the the desired month
+4. stop
+5. grab all the sell from the table,
+6.loop through them
+7. get condition
+8.select the date
+
+screenshots:
+we need screenshot interface to proof test cases functionality
+
+_______________________________________________today________________________________________________
++++++++++++++++++++++++++++++++++++actions class+++++++++++++++++++++++++++++++++++++++++++++++++++++
+given by selenium to capture keyboard and mouse events such as:
+move to an element
+drag and drop
+double click
+right click
+
+
+click and perform:
+click is to go to the other page
+peporme is to activate or performe a certain action from the action class
+
+If regular click does not work you can use the alternative way
+of Having Actions class click method
+
+Upload Documents:
+In order to upload documents using selenium we simply do
+senKeys(filepath)
+
+If sendkeys dosent work, you can use Robot class
+
+JavascriptExecutor
+it is a library in selenium with can be executed in different potgramming lang
+(java, c#, python etc)
+
+JavaScripedExecutor is an interface
+has 2 methods:
+executeScript()
+executeAsyncScript()
+
+Action which can be performed by using JSExecutor:
+click on the element --> last option
+scroll through the page
+refresh the page
+highlight the element
+scroll to a specific elelment
+open a new tab
+

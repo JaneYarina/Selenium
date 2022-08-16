@@ -1,0 +1,41 @@
+* Select class with drop doiwn we can use only when DD has Select tag
+* selected by index, visible text, value
+* in multiple select DD we can use DESELECT option
+* Multiple(); we are checking if it is multiple
+Alerts:
+Alert is a pop up message. Alerts take a complete focus of our main page that we are on.
+We cannot proceed further until it is handled
+Types of Allerts:
+1) web Based alerts/HTML Alerts - we can simply inspect alerts and perform needed actions
+2) javascript Alert/ browser alert - not a port og a webpage .It is a part of the browser .
+We can handle by using switchTo method. we ca not inspect it
+3)windows based alerrts we can not handle with selenium
+
+Types of Javascripeds allerts:
+1) simple alert - click ok
+2)confirmation alert - either cancel or click ok
+3)prompt alert - enter the text and then click ok or cancel
+
+ to handle Java scriped alert we only have  4 methods:
+ 1. accapt()- -click ok
+ 2. dismiss() - click on vamvel
+ 3. getTaxt()
+ 4. sendKeys()
+
+ frames allowd represent different views. it is independant windows
+ //iframe  - will tell us how many frame son tthe site
+ Frame is a seperate independant window in our webpage
+ frames allow developers (devs) to represent multiple views on one page
+
+
+ 3 ways to switch to a frame:
+ 1) by index
+ 2) by name or id
+ 3) by webElement
+
+ inalerts - switch to an alert mnaually and switch back automatically
+ in frames -switch to frame manually and switch back to the main page manually
+
+ interview Question:
+ How do you handle Alerts in Selenium?
+ through Alert inetrface 

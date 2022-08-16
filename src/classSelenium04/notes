@@ -1,0 +1,60 @@
+css selectors (Cascading Style Sheet)
+it is a way of locating elelments on the web page
+
+Syntax:
+tagname[attribute = 'attribute value']
+input[value = 'LOGIN']
+CSS DOSE NOT GIVE US AN OPPORTUNITY TO LOCATE THE ELELMENT BY ITS TEXT
+
+SHORTCUTS OF CSS:
+Shortcut for the className is (.)
+Syntax: tagname.classNameValue
+e.g.    input.button
+Shortcut for ID is (#)
+Syntex: tagname#id
+e.g.   input#txtPassword
+
+contains()   method in CSS:
+(*) will represent contains() method
+S:  tagname[attribute *='partial attribute value']
+e.g.  input[placeholder*='phone']
+
+
+ starts-with method in CSS:
+ (^) is a circumflex symbol represent stars with method
+ tagname[attribute^='startikng attribute value']
+ e.g.  input[aria-label^='Pas']
+
+
+ ends-with methods in CSS:
+( $ ) is symbol that represent ends-with method in SCC
+ tagname [attribute$='ending attribute value']
+ e.g.     a[href$='login']
+
+ Xpath vs CSS:
+ + CSS cannot locate the elements by text whereas xpath can
+ + css has shortcuts
+ + XPATH does not have ends-with method
+ + CSS has more simple syntax than xpath
+
+states of an elements:
+enable
+displayed
+selected
+
+WebElement Command:
+consists of several method where we can perform an action and
+get the element state on the webpage
+
+ isEnabled()--> boolean
+ isDisplaed()-->boolean
+ isSelected()--boolean
+ clear()-- void
+ getText()--String
+ getAttribute()-->String
+ submit()-->void
+
+<a>  is an attribute in HTML code whrere link are stored
+
+
+

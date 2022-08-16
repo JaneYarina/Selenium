@@ -1,0 +1,44 @@
+class  07
+Handling multiple windows(tabs):
+In order to handle multiple windows we will be uasing:
+getWindowHandle()
+getgWindoeHandles()
+
+WindowHandle:
+is a unique ID that holds the address of the window or a tab
+It is approximately a 40 alphanimeric characters ID
+
+the original page where you navigate will be called parent handle
+and additional tab opened afteward will be called child handle
+
+
+Most of the time when you interact with new links they will open a new tab or a window
+
+ when you need to identify make shure to pay attention at spaces. By text not need spases between and after  even if they
+ been copied, but in xpath by text we need spaces if they are copied together with text
+
+ Synchronization:
+ is the process of brining the speed of two or more components to the same level
+ in this case we a brining our script and page load to the same speed level
+
+ Tread.sleep() - static wait/ unconditional wait
+
+ Types of selenium waits:
+ Implicit wait
+ Explict wait
+ Fluent wait
+
+ Implicit Wait(global wait):
+ it tells the webdriver to wait untill certain amount of time before throwing an exception
+ it will only be written once and will be applied to the whole session of the execution
+ We ca say the Implicit wait is a global wait
+
+ Implicit wait works with findElement() method
+
+ Implicit wait is usually set for 20 seconds. If your element is found in any time between the given time
+ the remaining time will be ignored and your script will move on to the next line or to the next step
+ if the element is not found in the given time ,only then you will get an exception
+ only use to find element method
+
+
+

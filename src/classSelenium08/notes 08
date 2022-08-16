@@ -1,0 +1,47 @@
+Implicit wait:
+will be applied for findElement() methods
+
+ Explicit Wait orWebDriver Wait:
+: working with expected  condition class.
+: And wait till a certain condition is met or the given time is achieved
+: is used to tell the webdriver to wait for a certain condition
+ before throwing an exception for that specific condition
+
+
+h4 - is a headdings. the number can be changed by developer.
+if there is changing tag names u can use : *
+e.g. //*[contains(text(), 'Welcome')]
+* sing in xpath can identify any tag name.
+e.g. //*[@name = 'websubmit'] - from facebook
+
+
+fluent wait : global wait
+it is used to tell the webdriver to wait for certain condition as well as its frequency
+before throwing an exception
+
+implicit wait - wait to locate the elelment
+Explicit wait -wait until certain condition is met
+Fluent wait - set timeout, ste poling time and ignore neede exeptions in the given time period
+
+
+WebTable:
+webtable are  element on the page,which are constructed by having rows columns and headers
+
+Types of webTables:
+1. Static webtable
+2. dynamic webtable
+
+WebTables consist of diffetrnt sections or parts:
+<table>
+     <thead>
+          <tr>-row
+             <th></th> - column data or heading data
+          </tr>
+       </thead>
+       <tbody>
+            <tr>-row
+               <td></td> - table data
+            </tr>
+       </tbody>
+
+</table>

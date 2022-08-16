@@ -1,0 +1,68 @@
+//input[@type = 'text']
+comand F for mack to open html window
+//a[text() = 'Create new account']
+//input[contains(@placeholder,'Email')]
+
+to open selecter box for xpath:
+mac comand f
+windows control f
+
+
+Syntax for relative xpath:
+//input[]  - by using [] we are identyfing tag name
+input - is a tag name
+attribute ? @ID
+value of ID is email
+//input[@id='email']
+1of 1  - unick
+1 of 2 you cant use in the code it will be able to bring us to the wrong place
+//input[@type = 'text']
+
+
+identify element by it text():
+//tagname[text() = 'text value']
+//a[text() = 'Create new account']
+//h2[text() = 'Connect with friends and the world around you on Facebook.']
+
+contains method:
+//tagname[contains(@attribute, 'partial attribute value')]
+//input[contains(@placeholder,'Email')]   - by using @ and then attribute
+//h2[contains(text(), 'the world')]  - by using text()
+
+
+starts-with will identify elements by its partial starting value:
+//tagname[starts-with(@aria-label, 'Email')]
+//input[starts-with(@aria-label, 'Email')] face book
+
+ends-with was used in xpath 1.0, we are using 2.09 and this method is not available
+
+
+
+ Advanced Xpath:
+ is based on parent and child, sibling relationship
+
+ 1)Identifying element by following sibling:
+( "body "on facebook log in page is a following sibling)
+ //tagname[@attribute = 'attribute value']/following-sibking::siblingTagname
+ e.g. //input[@id='calFromDate']/following-sibling::img  from sytax webpage
+
+ 2)identifying element by preceding siblings
+ //tagname[@attribute = 'attribute value']/preceding-sibling::siblingTagname
+ //span[text()='& Orders']/preseding-sibling::span   from amazon page
+
+ 3)identify by parent
+ //tagname[@attribute = 'attribute value']/parent::parentTagname
+ //span[text() = '& Orders']/parent::a
+
+ 4)identifying elements by ancestors:
+ //tagname[@attribute ='attrribute value']/ancestor::ancestorTagname
+ //input[@id = 'email']/ancestor::form
+
+5) identifying element5s by its index:
+(//tagname[@attribute = 'attribute value'])[index]  1 of 2
+(//img[@class = 'ui-datepicker-trigger'])[2] from sytex page
+
+HM
+use  xpath for all locators
+
+
